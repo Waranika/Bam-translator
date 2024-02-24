@@ -2,7 +2,7 @@ import sys
 sys.path.append(r"C:\Users\kizer\Kasa\Web")
 
 from flask import Flask, request, jsonify
-from eng_bam_transformer.py import predict
+from eng_bam_transformer import predict
 
 app = Flask(__name__)
 
