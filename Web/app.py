@@ -1,5 +1,9 @@
 import sys
-sys.path.append(r"C:\Users\kizer\Kasa\Web")
+import os
+
+file_path=os.path.abspath(__file__)
+script_folder = os.path.dirname(file_path)
+sys.path.append(script_folder)
 
 from flask import Flask, request, jsonify
 from eng_bam_transformer import predict

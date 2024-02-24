@@ -79,7 +79,7 @@ To begin using the translator, follow these steps:
 
 ## Databases
 
-<Describe the databases utilized by the translator, including their structure, sources, and any preprocessing steps involved.>
+Store in the folder *Web\Data*
 
 
 ## **Acknowledgments**
