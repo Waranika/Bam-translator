@@ -19,11 +19,13 @@ def index():
 def translate():
     try:
         text_to_translate = request.json['text']
+        print(f"texte a traduire = {text_to_translate}")
         
         _, _, _, input_words, output_words = predict(text_to_translate)
 
         # Return the translated text
         translated_text = ' '.join(output_words[:-1])  # Exclude <end> token
+        print(f"texte traduit = {translated_text}")
         return jsonify({"translation": translated_text})
 
     except Exception as e:

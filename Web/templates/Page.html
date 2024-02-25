@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>African Languages Translator</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
 </head>
 <body>
     <div class="container">
@@ -14,7 +15,7 @@
             <textarea id="input-text" placeholder="Enter text..." rows="6"></textarea>
         </div>
         <div class="form-group">
-            <button id="translate-button" onclick='translate()'>Translate</button>
+            <button id="translate-button" onclick='trans_late()'>Translate</button>
         </div>
         <div class="form-group">
             <label for="output-text">Translated text:</label>
@@ -26,6 +27,5 @@
         <div class="translation-result" id="translation-result"></div>
     </div>
 
-    <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
 </body>
 </html>
