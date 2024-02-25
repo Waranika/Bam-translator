@@ -18,16 +18,15 @@ def index():
 @app.route('/translate', methods=['POST'])
 def translate():
     try:
-        # Get the input text from the request
-        data = request.get_json()
-        test_sequence = data.get('text')
-
-        # Perform translation
-        _, _, _, input_words, output_words = predict(test_sequence)
+        text_to_translate = request.json['text']
+        print(f"texte a traduire = {text_to_translate}")
+        
+        _, _, _, input_words, output_words = predict(text_to_translate)
 
         # Return the translated text
         translated_text = ' '.join(output_words[:-1])  # Exclude <end> token
-        return jsonify({"translated_text": translated_text})
+        print(f"texte traduit = {translated_text}")
+        return jsonify({"translation": translated_text})
 
     except Exception as e:
         return jsonify({"error": str(e)})
