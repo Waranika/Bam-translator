@@ -75,7 +75,7 @@ To begin using the translator, follow these steps:
 
 ## Usage
 
-Most African languages have their own alphabets in Latin, for example the Bambara alphabet is :
+Most African languages have their own alphabets in Latin based on the phonetic alphabet, for example the Bambara alphabet is :
 ![img](https://www.omniglot.com/images/writing/bambara.gif)
 
 ## Databases
