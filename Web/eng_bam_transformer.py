@@ -18,20 +18,24 @@ MODE = 'train'
 NUM_EPOCHS = 100
 NUMBER_OF_DATASET = 90
 BATCH_SIZE = 64
+file_path=os.path.abspath(__file__)
+script_folder = os.path.dirname(file_path)
+database_en=os.path.join(script_folder,"Data","En.txt")
+database_bam=os.path.join(script_folder,"Data","Bam.txt")
 
 #from google.colab import drive
 #drive.mount('/content/drive')
 
 def read_dataset(number):
     english_data = []
-    with open('/content/drive/MyDrive/Database/En.txt') as english_file:
+    with open(database_en,encoding="utf8") as english_file:
         for line_number, line in enumerate(english_file):
             if line_number >= number:
                 break
             english_data.append(line.strip())
 
     twi_data = []
-    with open('/content/drive/MyDrive/Database/Bam.txt') as twi_file:
+    with open(database_bam,encoding="utf8") as twi_file:
         for line_number, line in enumerate(twi_file):
             if line_number >= number:
                 break
@@ -545,36 +549,36 @@ def train_step(source_seq, target_seq_in, target_seq_out):
 
 NUM_EPOCHS = 100
 
-starttime = time.time()
-for e in range(NUM_EPOCHS):
-    for batch, (source_seq, target_seq_in, target_seq_out) in enumerate(dataset.take(-1)):
-        loss = train_step(source_seq, target_seq_in,
-                          target_seq_out)
-        if batch % 100 == 0:
-            print('Epoch {} Batch {} Loss {:.4f} Elapsed time {:.2f}s'.format(
-                e + 1, batch, loss.numpy(), time.time() - starttime))
-            starttime = time.time()
+# starttime = time.time()
+# for e in range(NUM_EPOCHS):
+#     for batch, (source_seq, target_seq_in, target_seq_out) in enumerate(dataset.take(-1)):
+#         loss = train_step(source_seq, target_seq_in,
+#                           target_seq_out)
+#         if batch % 100 == 0:
+#             print('Epoch {} Batch {} Loss {:.4f} Elapsed time {:.2f}s'.format(
+#                 e + 1, batch, loss.numpy(), time.time() - starttime))
+#             starttime = time.time()
 
-    try:
-        predict()
+#     try:
+#         predict()
 
-    except Exception as e:
-        print(e)
-        continue
+#     except Exception as e:
+#         print(e)
+#         continue
 
-for i, test_sent in enumerate(raw_data_en[:50]):
-    test_sequence = normalize_eng(test_sent)
-    predict(test_sequence)
-    # print(÷)
-    print()
+# for i, test_sent in enumerate(raw_data_en[:50]):
+#     test_sequence = normalize_eng(test_sent)
+#     predict(test_sequence)
+#     # print(÷)
+#     print()
 
-test_sents = (
-   'Are you sick ?',
-)
+# test_sents = (
+#    'Are you sick ?',
+# )
 
-for i, test_sent in enumerate(test_sents):
-    test_sequence = normalize_eng(test_sent)
-    predict(test_sequence)
-    # print(÷)
-    print()
+# for i, test_sent in enumerate(test_sents):
+#     test_sequence = normalize_eng(test_sent)
+#     predict(test_sequence)
+#     # print(÷)
+#     print()
 

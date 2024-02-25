@@ -5,10 +5,15 @@ file_path=os.path.abspath(__file__)
 script_folder = os.path.dirname(file_path)
 sys.path.append(script_folder)
 
-from flask import Flask, request, jsonify
+from flask import Flask, render_template, request, jsonify
 from eng_bam_transformer import predict
 
 app = Flask(__name__)
+
+
+@app.route('/')
+def index():
+    return render_template('Page.html')
 
 @app.route('/translate', methods=['POST'])
 def translate():
