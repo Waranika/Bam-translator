@@ -75,7 +75,8 @@ To begin using the translator, follow these steps:
 
 ## Usage
 
-<Explain how users can use the translator, including any specific input formats or options.>
+Most African languages have their own alphabets in Latin, for example the Bambara alphabet is :
+![img](https://www.omniglot.com/images/writing/bambara.gif)
 
 ## Databases
 
