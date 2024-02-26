@@ -12,6 +12,8 @@ Bam-translator is a student project aimed at developing a translator specificall
   - [Introduction](#introduction)
   - [Table of Contents](#table-of-contents)
   - [Authors](#authors)
+  - [Context](#context)
+  - [Context](#context-1)
   - [The objective of this project](#the-objective-of-this-project)
   - [Features](#features)
   - [Benefits](#benefits)
@@ -25,6 +27,25 @@ Bam-translator is a student project aimed at developing a translator specificall
 - [Elijah Ki-Zerbo](https://github.com/Waranika)
 - [Theotime Perrichet](https://github.com/TheoTime01)
 - [Chan-Yeong Hwang]()
+
+## Context
+
+Africa's linguistic landscape testifies to the richness of its cultural heritage, with over 2000 traditional languages that are the guardians of collective memory. These languages encapsulate the complex history of civilizations, dynasties and empires, offering a window on the continent's diverse past. Each language, with its unique proverbs, songs and riddles, contributes to a better understanding of African identity.
+
+However, most of these languages are still spoken, which is why an *AI translation model* could be a **social and economic opportunity** to offer tools to people with little or no command of European languages such as **English**, **French** or **Portuguese**
+
+## Context
+
+Africa's linguistic landscape testifies to the richness of its cultural heritage, with over 2000 traditional languages that are the guardians of collective memory. These languages encapsulate the complex history of civilizations, dynasties and empires, offering a window on the continent's diverse past. Each language, with its unique proverbs, songs and riddles, contributes to a better understanding of African identity.
+
+However, most of these languages are still spoken, which is why an *AI translation model* could be a **social and economic opportunity** to offer tools to people with little or no command of European languages such as **English**, **French** or **Portuguese**
+
+<div style="display: flex; justify-content: space-between;">
+    <img src="images/p1.jpg" alt="img1" style="width: 30%;">
+    <img src="images/p2.jpg" alt="img2" style="width: 30%;">
+    <img src="images/p3.jpg" alt="img3" style="width: 30%;">
+</div>
+
 
 ## The objective of this project
 
