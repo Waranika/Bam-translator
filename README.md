@@ -42,10 +42,11 @@ However, most of these languages are still spoken, which is why an *AI translati
 
 <div style="display: flex; justify-content: space-between;">
     <img src="images/p1.jpg" alt="img1" style="width: 30%;">
-    <img src="images/p2.jpg" alt="img2" style="width: 30%;">
-    <img src="images/p3.jpg" alt="img3" style="width: 30%;">
+    <img src="images/p3.jpg" alt="img2" style="width: 30%;">
+    <img src="images/p2.jpg" alt="img3" style="width: 30%;">
 </div>
 
+**source** : *https://www.datastoryteller.africa/postsen*
 
 ## The objective of this project
 
