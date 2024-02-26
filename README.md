@@ -23,7 +23,7 @@ Bam-translator is a student project aimed at developing a translator specificall
 ## Authors
 
 - [Elijah Ki-Zerbo](https://github.com/Waranika)
-- [Theotime Perrichet](https://github.com/TheoTime0)
+- [Theotime Perrichet](https://github.com/TheoTime01)
 - [Chan-Yeong Hwang]()
 
 ## The objective of this project
