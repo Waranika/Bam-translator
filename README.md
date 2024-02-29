@@ -1,6 +1,7 @@
 <div style="text-align: center;">
-    <img src="images/logo_Griot_AI.png" alt="img1" style="width: 20%;">
+    <img src="images/logo_Griot_AI.png" alt="img1" style="text-align: center; width: 70%;">
 </div>
+
 
 # Griot AI
 
