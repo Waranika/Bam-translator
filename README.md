@@ -52,6 +52,7 @@ The objectives of this project are:
 - [ ] develop a model for translating between several African languages and European languages
 - [ ] to be able to make text-to-speech and speech-to-text in these languages
 
+
 ## Features
 
 The Griot AI project includes the following features:
