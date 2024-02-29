@@ -48,6 +48,8 @@ The objectives of this project are:
 - [ ] develop a model for translating between several African languages and European languages
 - [ ] to be able to make text-to-speech and speech-to-text in these languages
 
+![img](images/gif.gif)
+
 ## Features
 
 The Bam-translator project includes the following features:
