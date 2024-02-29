@@ -1,3 +1,7 @@
+<div style="text-align: center;">
+    <img src="images/logo_Griot_AI.png" alt="img1" style="width: 20%;">
+</div>
+
 # Griot AI
 
 ## Introduction
