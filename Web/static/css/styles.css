@@ -3,12 +3,15 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f8f9fa;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
 }
 .container {
     max-width: 800px;
     margin: 50px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.8);
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -18,22 +21,24 @@ h1 {
 .form-group {
     margin-bottom: 20px;
 }
+
 .form-group label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
 }
+
 .form-group textarea {
-    width: 100%;
+    width: calc(100% - 20px); /* Adjusting width for padding */
     height: 150px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
     resize: none;
 }
+
 .form-group button {
-    display: block;
-    width: 100%;
+    width: calc(100% - 20px); /* Adjusting width for padding */
     padding: 10px;
     background-color: #007bff;
     color: #fff;
@@ -42,9 +47,11 @@ h1 {
     cursor: pointer;
     transition: background-color 0.3s;
 }
+
 .form-group button:hover {
     background-color: #0056b3;
 }
+
 .translation-result {
     margin-top: 20px;
     border: 1px solid #ccc;
