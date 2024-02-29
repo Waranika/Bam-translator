@@ -1,14 +1,14 @@
-# Bam-translator
+# Griot AI
 
 ## Introduction
 
-Bam-translator is a student project aimed at developing a translator specifically tailored for Western African languages. The project initially focuses on supporting languages from the Bamana family, leveraging techniques and resources from [Kasa](https://github.com/GhanaNLP/kasa), a platform for African language processing.
+Griot AI is a student project aimed at developing a translator specifically tailored for Western African languages. The project initially focuses on supporting languages from the Bamana family, leveraging techniques and resources from [Kasa](https://github.com/GhanaNLP/kasa), a platform for African language processing.
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
 
 ## Table of Contents
 
-- [Bam-translator](#bam-translator)
+- [Griot AI](#griot-ai)
   - [Introduction](#introduction)
   - [Table of Contents](#table-of-contents)
   - [Authors](#authors)
@@ -49,13 +49,9 @@ The objectives of this project are:
 - [ ] to be able to make text-to-speech and speech-to-text in these languages
 
 
-<video controls>
-  <source src="images/video.mp4" type="video/mp4">
-</video>
-
 ## Features
 
-The Bam-translator project includes the following features:
+The Griot AI project includes the following features:
 
 - Translation capabilities between English and languages from the Bamana family.
 - Implementation of transformer-based models for translation tasks.
